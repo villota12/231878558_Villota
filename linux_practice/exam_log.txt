@@ -1,0 +1,50 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch note.txt
+    4  nano note.txt
+    5  echo "This is practical exam">notes.txt
+    6  ls
+    7  cd
+    8  cd 231878558_villota
+    9  rm -r linux_practice
+   10  cd
+   11  clear
+   12  ls
+   13  cd 231878558_villota
+   14  mkdir linux_practice
+   15  cd linux_practice
+   16  touch notes.txt
+   17  nano notes.txt
+   18  echo "This is a practical exam">notes.txt
+   19  cat notes.txt
+   20  head notes.txt
+   21  tail notes.txt
+   22  mkdir subdir
+   23  cd subdir
+   24  mv notes.txt subdir/
+   25  cd..
+   26  cd ..
+   27  mv notes.txt subdir/
+   28  mv subdir/ practice_subdir
+   29  ls
+   30  cp notes.txt ~/231878558_villota/linux_practice
+   31  cd practice_subdir
+   32  ~/231878558_villota/linux_practice
+   33  cp notes.txt ~/231878558_villota/linux_practice
+   34  date
+   35  cd
+   36  uptime
+   37  df -h
+   38  ssh -v
+   39  php -v
+   40  mysql --version
+   41  apachectl -v
+   42  python3 -v
+   43  java --ver
+   44  java --version
+   45  cd 231878558_villota
+   46  git checkout -b finalexam
+   47  gh repo clone https://github.com/villota12/231878558_villota
+   48  ls
+   49  cd linux_practice
+   50  history > exam_log.txt
